@@ -7,7 +7,7 @@
           
         </div>
       </div> -->
-      <div class="col-md-6">
+      <div class="col-4">
         <h4>Product Line List</h4>
         <ul class="list-group">
           <li class="list-group-item"
@@ -21,11 +21,32 @@
         </ul>
   
       </div>
-      <div class="col-md-6">
+      <div class="col-8">
         <div v-if="currentProduct">
           <h4>Product Line</h4>
           <div>
-            <label><strong>Name: </strong></label> {{ currentProduct.name }}
+            <label><strong>Name: </strong></label> {{ currentProduct.fullProductLine }}
+          </div>
+          <div>
+            <label><strong>Source_db_name: </strong></label> {{ currentProduct.sourceDbName }}
+          </div>
+          <div>
+            <label><strong>Plant code: </strong></label> {{ currentProduct.plantCode }}
+          </div>
+          <div>
+            <label><strong>Location code: </strong></label> {{ currentProduct.locationCode }}
+          </div>
+          <div>
+            <label><strong>Line no: </strong></label> {{ currentProduct.lineNo }}
+          </div>
+          <div>
+            <label><strong>Line Description: </strong></label> {{ currentProduct.lineDesc }}
+          </div>
+          <div>
+            <label><strong>ETL Creation Date: </strong></label> {{ currentProduct.etlCreationDate }}
+          </div>
+          <div>
+            <label><strong>ETL Last Update: </strong></label> {{ currentProduct.etlLastUpdate }}
           </div>
         </div>
         <div v-else>
@@ -84,5 +105,10 @@
     text-align: left;
     max-width: 750px;
     margin: auto;
+  }
+
+  .table {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   </style>
