@@ -9,6 +9,9 @@
               <button class="users">
                   <router-link to="/user-list">Users</router-link>
               </button>
+              <button class="users">
+                  <router-link to="/product-list">Products</router-link>
+              </button>
             </div>
         </div>
         <div class="search-container">
@@ -47,13 +50,6 @@ export default {
     }
   },
   mounted() {
-    // axios.get('http://localhost:8080/api/users')
-    //   .then(response => {
-    //     this.users = response.data;
-    //   })
-    //   .catch(error => {
-    //     console.log(error);
-    //   });
   }
 }
 </script>

@@ -29,6 +29,9 @@
         <button class="m-3 btn btn-sm btn-danger" @click="removeAllUsers">
           Remove All
         </button>
+        <button class="m-3 btn btn-sm btn-danger">
+          <router-link to="/">Home</router-link>
+        </button>
       </div>
       <div class="col-md-6">
         <div v-if="currentUser">

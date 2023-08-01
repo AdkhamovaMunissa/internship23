@@ -115,10 +115,6 @@ public class UserController {
 
 	}
 
-    // @PostMapping("/login")
-    // public ResponseEntity<?> loginUser(@RequestBody LoginDto loginDto) {
-    //     LoginMessage loginMessage = userService.loginUser(loginDto);
-    //     return ResponseEntity.ok(loginMessage);
-    // }
+    
 
 }
