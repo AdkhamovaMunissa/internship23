@@ -1,0 +1,10 @@
+azuredataapi\apiforweb\dto\LoginDto.class
+azuredataapi\apiforweb\model\User.class
+azuredataapi\apiforweb\ApiforwebApplication.class
+azuredataapi\apiforweb\dto\UserDto.class
+azuredataapi\apiforweb\response\LoginMessage.class
+azuredataapi\apiforweb\controller\UserController.class
+azuredataapi\apiforweb\service\UserService.class
+azuredataapi\apiforweb\model\Todo.class
+azuredataapi\apiforweb\repository\UserRepository.class
+azuredataapi\apiforweb\service\impl\UserImpl.class
